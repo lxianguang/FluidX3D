@@ -1,4 +1,4 @@
-MAKEFLAGS = -j$(nproc)
+#MAKEFLAGS = -j$(nproc)
 CC = g++
 CFLAGS = -std=c++17 -pthread -O -Wno-comment
 
